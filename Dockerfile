@@ -39,7 +39,7 @@ RUN php artisan cache:clear
 RUN php artisan route:clear
 RUN php artisan view:clear
 
-RUN php artisan config:cache
+
 RUN php artisan route:cache
 RUN php artisan view:cache
 
