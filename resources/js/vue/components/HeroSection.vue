@@ -82,7 +82,7 @@
                 <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
                 <div class="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
                 <div class="w-2.5 h-2.5 rounded-full bg-green-400"></div>
-                <div class="ml-3 text-xs text-gray-400 font-medium">martinezcorp.com</div>
+                <div class="ml-3 text-xs text-gray-400 font-medium">martinezdigitalsolutions.com</div>
               </div>
               <div class="p-4 sm:p-6">
                 <div class="space-y-3">

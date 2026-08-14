@@ -16,7 +16,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
           </div>
-          <span class="text-lg font-semibold tracking-tight">MartinezCorp</span>
+          <span class="text-lg font-semibold tracking-tight">Martinez Digital Solutions</span>
         </a>
 
         <!-- Desktop Navigation -->

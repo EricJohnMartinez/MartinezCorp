@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MartinezCorp — Modern Websites & Mobile App Development</title>
+        <title>Martinez Digital Solutions — Modern Websites & Mobile App Development</title>
         <meta name="description" content="We build fast, scalable, and beautifully designed websites and mobile applications tailored to your business goals.">
 
         <!-- Fonts -->

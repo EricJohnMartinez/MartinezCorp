@@ -10,7 +10,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <span class="text-base font-semibold tracking-tight">MartinezCorp</span>
+            <span class="text-base font-semibold tracking-tight">Martinez Digital Solutions</span>
           </a>
           <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed max-w-xs">
             We build modern websites and mobile applications that help businesses grow and succeed in the digital world.
@@ -46,11 +46,11 @@
           <h4 class="text-sm font-semibold mb-4">Contact</h4>
           <ul class="space-y-3">
             <li>
-              <a href="mailto:hello@martinezcorp.com" class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200 flex items-center gap-2">
+              <a href="mailto:hello@martinezdigitalsolutions.com" class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200 flex items-center gap-2">
                 <svg class="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
-                hello@martinezcorp.com
+                hello@martinezdigitalsolutions.com
               </a>
             </li>
             <li>
@@ -75,7 +75,7 @@
       <!-- Bottom -->
       <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p class="text-sm text-gray-500 dark:text-gray-400">
-          &copy; 2026 MartinezCorp. All rights reserved.
+          &copy; 2026 Martinez Digital Solutions. All rights reserved.
         </p>
         <div class="flex items-center gap-4">
           <a href="#" class="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-200" aria-label="Facebook">
