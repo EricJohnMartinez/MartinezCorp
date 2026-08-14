@@ -82,17 +82,16 @@
               </div>
               <h3 class="text-lg font-semibold mb-1.5">{{ project.title }}</h3>
               <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4">{{ project.description }}</p>
-              <a
-                href="#"
-                class="inline-flex items-center gap-1.5 text-sm font-medium transition-colors duration-200"
+              <button
+                class="inline-flex items-center gap-1.5 text-sm font-medium transition-colors duration-200 cursor-pointer"
                 :style="{ color: project.accent }"
-                @click.prevent
+                @click="openPreview(project)"
               >
                 View Project
                 <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -109,15 +108,27 @@
         </div>
       </div>
     </div>
+
+    <!-- Project Preview Modal -->
+    <ProjectPreviewModal
+      :project="selectedProject"
+      :visible="isPreviewOpen"
+      @close="closePreview"
+    />
   </section>
 </template>
 
 <script setup>
+import { ref } from 'vue';
+import ProjectPreviewModal from './ProjectPreviewModal.vue';
+
 const projects = [
   {
     title: 'Velocity — Business Website',
     description: 'A performance-focused corporate landing page with fluid animations and conversion-optimized layouts.',
     category: 'Web Development',
+    type: 'business',
+    url: 'velocity.com',
     bg: 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #bfdbfe 100%)',
     accent: '#3b82f6',
     blockColors: ['bg-blue-100 dark:bg-blue-500/20', 'bg-blue-200 dark:bg-blue-500/30', 'bg-blue-50 dark:bg-blue-500/10'],
@@ -127,6 +138,8 @@ const projects = [
     title: 'MarketFlow — E-Commerce',
     description: 'A full-featured online marketplace with custom CMS, secure payments, and real-time inventory tracking.',
     category: 'Full Stack',
+    type: 'ecommerce',
+    url: 'marketflow.com',
     bg: 'linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #e9d5ff 100%)',
     accent: '#7c3aed',
     blockColors: ['bg-purple-100 dark:bg-purple-500/20', 'bg-purple-200 dark:bg-purple-500/30', 'bg-purple-50 dark:bg-purple-500/10'],
@@ -136,6 +149,8 @@ const projects = [
     title: 'Pulse — Fitness App',
     description: 'A cross-platform mobile app for fitness tracking with real-time analytics, social features, and AI coaching.',
     category: 'Mobile',
+    type: 'mobile',
+    url: 'pulse.app',
     bg: 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 50%, #a7f3d0 100%)',
     accent: '#10b981',
     blockColors: ['bg-emerald-100 dark:bg-emerald-500/20', 'bg-emerald-200 dark:bg-emerald-500/30', 'bg-emerald-50 dark:bg-emerald-500/10'],
@@ -145,10 +160,24 @@ const projects = [
     title: 'DataVista — Analytics Dashboard',
     description: 'A sophisticated analytics platform featuring real-time data visualization, custom reports, and team collaboration.',
     category: 'UI/UX',
+    type: 'dashboard',
+    url: 'app.datavista.io',
     bg: 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 50%, #fde68a 100%)',
     accent: '#f59e0b',
     blockColors: ['bg-amber-100 dark:bg-amber-500/20', 'bg-amber-200 dark:bg-amber-500/30', 'bg-amber-50 dark:bg-amber-500/10'],
     techs: ['Vue 3', 'D3.js', 'Chart.js']
   }
 ];
+
+const selectedProject = ref(projects[0]);
+const isPreviewOpen = ref(false);
+
+function openPreview(project) {
+  selectedProject.value = project;
+  isPreviewOpen.value = true;
+}
+
+function closePreview() {
+  isPreviewOpen.value = false;
+}
 </script>
