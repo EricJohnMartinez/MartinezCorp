@@ -5,11 +5,7 @@
         <!-- Company Info -->
         <div class="lg:col-span-1">
           <a href="#" class="flex items-center gap-2 mb-4">
-            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-              <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+            <img :src="logoUrl" alt="Martinez Digital Solutions logo" class="w-8 h-8 rounded-lg object-contain" />
             <span class="text-base font-semibold tracking-tight">Martinez Digital Solutions</span>
           </a>
           <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed max-w-xs">
@@ -113,6 +109,7 @@
 </template>
 
 <script setup>
+const logoUrl = '/MDS.png';
 const footerNav = [
   { label: 'Home', href: '#home' },
   { label: 'Services', href: '#services' },
