@@ -35,7 +35,9 @@
           </svg>
         </a>
         <a
-          href="mailto:hello@martinezdigitalsolutions.com"
+          href="https://www.facebook.com/profile.php?id=61593661384617"
+          target="_blank"
+          rel="noopener noreferrer"
           class="inline-flex items-center px-6 py-3 text-sm font-semibold text-gray-300 border border-gray-700 rounded-full hover:bg-white/5 hover:border-gray-600 transition-all duration-300"
         >
           Contact Us

@@ -229,7 +229,7 @@ const steps = [
     label: 'Discovery',
     subtitle: 'Understanding your vision, goals, and market.',
     description: 'We start by diving deep into your business, goals, target audience, and competitive landscape. This foundational phase ensures every decision we make is aligned with your vision.',
-    duration: '1-2 weeks',
+    duration: '1 week',
     stage: 'Discovery',
     details: [
       'In-depth consultation and stakeholder interviews',
@@ -250,7 +250,7 @@ const steps = [
     label: 'Strategy',
     subtitle: 'Mapping out a clear path to success.',
     description: 'With insights from discovery, we craft a comprehensive strategy that outlines the technical architecture, design direction, project milestones, and delivery timeline.',
-    duration: '1-2 weeks',
+    duration: '1 week',
     stage: 'Strategy',
     details: [
       'Information architecture and sitemap creation',
@@ -271,7 +271,7 @@ const steps = [
     label: 'Design',
     subtitle: 'Crafting beautiful, intuitive interfaces.',
     description: 'Our designers transform strategy into stunning visual designs. We create pixel-perfect interfaces that are both beautiful and user-friendly, ensuring an exceptional experience.',
-    duration: '2-3 weeks',
+    duration: '2 weeks',
     stage: 'Design',
     details: [
       'UI design with modern, clean aesthetics',
@@ -292,7 +292,7 @@ const steps = [
     label: 'Development',
     subtitle: 'Building with clean, scalable code.',
     description: 'Our engineers bring designs to life using modern frameworks and best practices. We write clean, maintainable code and build scalable architecture that performs beautifully.',
-    duration: '4-8 weeks',
+    duration: '2 weeks',
     stage: 'Development',
     details: [
       'Frontend development with modern frameworks',
@@ -313,7 +313,7 @@ const steps = [
     label: 'Testing',
     subtitle: 'Ensuring quality at every level.',
     description: 'We conduct thorough testing across all devices, browsers, and scenarios to ensure your product is reliable, secure, and delivers a flawless user experience.',
-    duration: '1-2 weeks',
+    duration: '1 week',
     stage: 'Quality Assurance',
     details: [
       'Cross-browser and cross-device testing',
