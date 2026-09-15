@@ -9,9 +9,9 @@
       <!-- Section Header -->
       <div class="text-center max-w-2xl mx-auto mb-16">
         <span class="inline-block px-3 py-1 text-xs font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-500/10 rounded-full mb-4">Pricing</span>
-        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Transparent Starting Prices</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Plans Built Around Your Goals</h2>
         <p class="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-          Every project is unique. These prices represent starting estimates. Contact us for a personalized quotation.
+          Every project is different. Choose the direction that fits your needs, and we will shape the scope, timeline, and investment together.
         </p>
       </div>
 
@@ -22,8 +22,8 @@
           <h3 class="text-lg font-semibold mb-1">Starter</h3>
           <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">For simple websites</p>
           <div class="mb-6">
-            <span class="text-4xl font-bold">$499</span>
-            <span class="text-gray-500 dark:text-gray-400 text-sm ml-1">starting at</span>
+            <span class="text-3xl font-bold">Project-based</span>
+            <span class="block text-gray-500 dark:text-gray-400 text-sm mt-1">Scoped to your needs</span>
           </div>
           <ul class="space-y-3 mb-8">
             <li v-for="item in starterFeatures" :key="item" class="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400">
@@ -34,7 +34,7 @@
             </li>
           </ul>
           <a href="#contact" class="block w-full text-center px-5 py-3 text-sm font-semibold text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-700 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-all duration-300">
-            Request Quote
+            Discuss Your Project
           </a>
         </div>
 
@@ -49,8 +49,8 @@
           <h3 class="text-lg font-semibold mb-1">Business</h3>
           <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">For growing businesses</p>
           <div class="mb-6">
-            <span class="text-4xl font-bold">$999</span>
-            <span class="text-gray-500 dark:text-gray-400 text-sm ml-1">starting at</span>
+            <span class="text-3xl font-bold">Tailored scope</span>
+            <span class="block text-gray-500 dark:text-gray-400 text-sm mt-1">Aligned with your growth</span>
           </div>
           <ul class="space-y-3 mb-8">
             <li v-for="item in businessFeatures" :key="item" class="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400">
@@ -61,7 +61,7 @@
             </li>
           </ul>
           <a href="#contact" class="block w-full text-center px-5 py-3 text-sm font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-600 rounded-full shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300">
-            Request Quote
+            Discuss Your Project
           </a>
         </div>
 
@@ -70,8 +70,8 @@
           <h3 class="text-lg font-semibold mb-1">Enterprise</h3>
           <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">For large-scale projects</p>
           <div class="mb-6">
-            <span class="text-4xl font-bold">Custom</span>
-            <span class="text-gray-500 dark:text-gray-400 text-sm ml-1">quote</span>
+            <span class="text-3xl font-bold">Custom engagement</span>
+            <span class="block text-gray-500 dark:text-gray-400 text-sm mt-1">Designed for complex needs</span>
           </div>
           <ul class="space-y-3 mb-8">
             <li v-for="item in enterpriseFeatures" :key="item" class="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400">
@@ -82,7 +82,7 @@
             </li>
           </ul>
           <a href="#contact" class="block w-full text-center px-5 py-3 text-sm font-semibold text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-700 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-all duration-300">
-            Request Quote
+            Discuss Your Project
           </a>
         </div>
       </div>
